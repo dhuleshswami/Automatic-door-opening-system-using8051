@@ -6,8 +6,8 @@ This project uses 8051 microcontroller to control a door lock system.
 
 ## Components Used
 - 8051 Microcontroller
-- Keypad
-- LCD Display
+- IR sensor 
+- l293d motor driver ic 
 - Motor / Solenoid Lock
 
 ## Working
