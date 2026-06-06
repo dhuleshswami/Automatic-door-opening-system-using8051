@@ -15,10 +15,13 @@ This project uses 8051 microcontroller to control a door lock system.
 - 1k resistor
 - push button
 - pcb board
+  
 ##software used
 -proteus
 -keil
+-willar
 
 ## Working
-when person come infront of  door → system checks → door opens .
+when person come infront of  door → system checks → door opens → person goes inside or outside  → door closed.
+
 
