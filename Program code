@@ -1,0 +1,67 @@
+Program
+
+#include <reg51.h>
+
+/* Motor pins"/
+
+sbit mot_pin1 P1^1;
+
+sbit mot_pin2 = P1^2;
+
+sbit s=P1^0:
+
+/* Delay function */
+
+void Delay(int k);
+
+void main(void)
+
+while(1)
+
+{
+
+// Clockwise rotation
+
+if(s=0){
+
+mot_pin1 = 1;
+
+mot_pin2 = 0;
+
+Delay(3000);
+
+// Stop
+
+mot_pin1 = 0;
+
+mot_pin2 = 0;
+
+Delay(3000);
+
+// Anticlockwise rotation
+
+mot_pin1 = 0;
+
+mot_pin2 = 1;
+
+Delay(3000);
+
+}
+
+// Stop (optional, but cleaner cycle)
+
+mot_pin1 = 0;
+
+mot_pin2 = 0;
+
+void Delay(int k)
+
+int i, j;
+
+for(i = 0; i <k; i++)
+
+1
+
+for(j=0; j < 100; j++);
+
+}
